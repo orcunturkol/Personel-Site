@@ -48,7 +48,7 @@ const Timeline = () => {
       <SectionText>
       In 2020, I graduated from Izmir University of Economics as a high honor student in the computer programming department. With time I improve myself in web, mobile and game development.
       </SectionText>
-      <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
+      {/* <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
             <CarouselMobileScrollNode key={index} final={index === TOTAL_CAROUSEL_COUNT - 1}>
@@ -109,8 +109,7 @@ const Timeline = () => {
             <CarouselButtonDot active={activeItem} />
           </CarouselButton>
         ))}
-      </CarouselButtons>
-      <SectionDivider />
+      </CarouselButtons> */}
     </Section>
   );
 };
